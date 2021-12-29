@@ -43,3 +43,68 @@ header {
 
 
 /* end header section */
+
+section {
+    padding: 100px 100px;
+}
+
+
+/* start main-heading */
+
+.main-heading {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url("images/main_background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main-heading h2 {
+    color: white;
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+.main-heading h2 span {
+    display: inline-block;
+    margin: 10px;
+    color: #3a6cf4;
+    font-weight: 700;
+    font-size: 1.7em;
+}
+
+.main-heading h3 {
+    color: white;
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-heading .view-projects-btn {
+    color: white;
+    text-decoration: none;
+    background-color: #3a6cf4;
+    font-weight: 700;
+    display: inline-block;
+    padding: 20px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    transition: 0.5s ease;
+}
+
+.main-heading .view-projects-btn:hover {
+    background-color: blue;
+    transform: scale(1.1, 1.1);
+}
+
+.main-heading .social-icons a {
+    color: white;
+    padding-right: 20px;
+    font-size: 30px;
+}
