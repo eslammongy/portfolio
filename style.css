@@ -298,3 +298,29 @@ title {
 
 
 /* end contact */
+
+
+/* start footer */
+
+.footer {
+    background-color: #000016;
+    color: white;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .social-icons a {
+    color: white;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+footer .footer-title {
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+footer .footer-title span {
+    color: #3a6cf4;
+}
