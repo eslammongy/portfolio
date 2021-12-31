@@ -26,6 +26,13 @@
     transition: 0.5s;
 }
 
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 
 /*start header section */
 
@@ -162,13 +169,6 @@ title {
     margin-bottom: 40px;
 }
 
-.cards .content {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
 .cards .content .singal-card:hover {
     transform: scale(1.1);
 }
@@ -208,10 +208,6 @@ title {
 
 .projects .content {
     margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 
 .projects .content .pro-card {
@@ -269,13 +265,6 @@ title {
 
 /* start contact */
 
-.contact .content {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
 .contact .content .singal-card:hover {
     transform: scale(1.1);
 }
@@ -323,4 +312,60 @@ footer .footer-title {
 
 footer .footer-title span {
     color: #3a6cf4;
+}
+
+@media (max-width:1023px) {
+    header {
+        padding: 10px 17px;
+    }
+    .navigations a {
+        padding-left: 10px;
+    }
+    .title {
+        font-size: 1.7em;
+    }
+    .main-heading {
+        padding: 70px 18px;
+    }
+    .main-heading h2 {
+        font-size: 1em;
+    }
+    .main-heading h3 {
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+    section {
+        padding: 70px 15px;
+    }
+    .content {
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width:641px) {
+    body {
+        font-size: 12px;
+    }
+    .main-heading h2 {
+        font-size: 0.8em;
+    }
+    .main-heading h3 {
+        font-size: 1.3em;
+        font-weight: 600;
+    }
+}
+
+@media (max-width:300px) {
+    body {
+        font-size: 10px;
+    }
+    .main-heading h2 {
+        font-size: 0.8em;
+    }
+    .main-heading h3 {
+        font-size: 1.3em;
+        font-weight: 600;
+    }
 }
